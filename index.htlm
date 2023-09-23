@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulaire de saisie de texte</title>
+    <!-- Include the reCAPTCHA library with the test site key -->
+    <script src="https://www.google.com/recaptcha/api.js?render=6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></script>
+</head>
+<body>
+    <form id="myForm">
+        <label for="message">Saisissez votre texte :</label>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+        <!-- Add the reCAPTCHA widget with the test site key -->
+        <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
+
+        <input type="submit" value="Envoyer">
+    </form>
+
+    <!-- Include your script.js -->
+    <script src="script.js"></script>
+</body>
+</html>
